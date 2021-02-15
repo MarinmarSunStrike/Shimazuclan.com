@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400; }
+
+.bodybody .chatk, .bodybody .imper, .bodybody .Oda, .bodybody .Tak, .bodybody .Yes, .bodybody .mm, .bodybody .rm, .bodybody .msmb, .bodybody .ths, .bodybody .sv {
+  border: 4px solid #000; }
+
+.upbar {
+  border-left: hidden;
+  border-right: hidden; }
+
+.upbar .main, .upbar .states, .upbar .ivents, .upbar .aboutus {
+  border: 5px solid #46573a;
+  border-top: hidden;
+  border-bottom: hidden;
+  padding: 0px 10px 0px 10px;
+  background: #4d8f54;
+  height: 20px; }
+
+.bodybody .msmb {
+  background-size: contain; }
+
+.bodybody .msmb, .bodybody .ths, .bodybody .sv {
+  position: absolute; }
+
+.upbar {
+  border: 4px solid #46573a;
+  background: #aae080;
+  color: #46573a;
+  font-size: 50px;
+  padding: 3px; }
+  .upbar a {
+    color: #2e3629; }
+  .upbar .main {
+    margin: 5px 0px 10px 520px;
+    padding: 0px 10px 0px 10px; }
+  .upbar .states {
+    margin: 5px 0px 10px 20px; }
+  .upbar .ivents {
+    margin: 5px 0px 10px 20px; }
+  .upbar .aboutus {
+    margin: 5px 0px 10px 20px; }
+
+body {
+  background: #e8ffd6; }
+
+h1 {
+  font-size: 30px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin: 40px 0px 10px 640px;
+  font-style: italic; }
+
+h2 {
+  font-size: 25px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin: 0px 0px 0px 500px; }
+
+.bodybody {
+  border: 4px solid #6E6702;
+  width: 49%;
+  height: 3500px;
+  margin: 0px 0px 0px 460px;
+  background: #C05805; }
+  .bodybody .wg {
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 20px 0px 10px;
+    margin: 10px 5px 10px 10px;
+    border: 4px solid #000;
+    background: url(../img/1.jpg) no-repeat;
+    background-size: 300px 400px;
+    width: 300px;
+    height: 400px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+  .bodybody a {
+    color: #000; }
+  .bodybody .chatk {
+    display: inline-block;
+    background: url(../img/2.jpg) no-repeat;
+    background-size: 600px 300px;
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    bottom: 511px;
+    font-size: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+  .bodybody .imper {
+    font-size: 50px;
+    text-align: left;
+    background: url(../img/3.jpg) no-repeat;
+    position: absolute;
+    top: 464px;
+    height: 800px;
+    width: 600px;
+    padding: 25px 0px 0px 25px;
+    background-size: 100% 100%;
+    color: #000; }
+  .bodybody .Oda {
+    position: absolute;
+    top: 563px;
+    right: 1129px;
+    width: 300px;
+    background: url(../img/4.jpg) no-repeat;
+    height: 520px;
+    font-size: 30px;
+    padding: 0px 80px 0px 0px;
+    color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+  .bodybody .Tak {
+    width: 301px;
+    position: absolute;
+    top: 1087px;
+    left: 474px;
+    background: url(../img/5.jpg) no-repeat;
+    height: 300px;
+    padding: 230px 0px 0px 0px;
+    font-size: 30px;
+    color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+  .bodybody .Yes {
+    position: absolute;
+    top: 1268px;
+    width: 600px;
+    height: 350px;
+    background: url(../img/6.jpg) no-repeat;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #fff;
+    font-size: 25px; }
+  .bodybody .mm {
+    position: absolute;
+    top: 1395px;
+    left: 474px;
+    width: 220px;
+    height: 223px;
+    padding: 0px 0px 0px 0px;
+    font-size: 25px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: url(../img/7.jpg) no-repeat;
+    background-size: contain; }
+  .bodybody .rm {
+    position: absolute;
+    top: 1623px;
+    left: 474px;
+    background: url(../img/8.jpg) no-repeat;
+    width: 601px;
+    height: 601px;
+    background-size: cover;
+    font-size: 50px;
+    color: #f2d494; }
+  .bodybody .msmb {
+    top: 1623px;
+    right: 522px;
+    width: 301px;
+    height: 601px;
+    background: url(../img/9.jpg) no-repeat;
+    font-size: 30px;
+    background-position: -60px -5px;
+    padding: 0px 150px 0px 0px;
+    line-height: 25px; }
+  .bodybody .ths {
+    top: 2228px;
+    right: 522px;
+    width: 31%;
+    height: 500px;
+    background: url(../img/10.jpg) no-repeat;
+    background-size: cover;
+    background-position: -30px 0px;
+    color: #cfb53b;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 19px;
+    text-align: center; }
+  .bodybody .sv {
+    top: 2228px;
+    left: 474px;
+    width: 310px;
+    height: 500px; }
+
+.upbar {
+  border-left: hidden;
+  border-right: hidden; }
+
+.bottombar {
+  border: 5px solid #2e3629;
+  border-right: hidden;
+  border-left: hidden;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 25px;
+  padding: 0px 0px 0px 480px;
+  margin: 860px 0px 0px 0px;
+  background: #aae080; }
+  .bottombar a {
+    border: 2px solid #2e3629;
+    margin: 5px 0px 5px 0px;
+    color: #2E2300; }
+  .bottombar .luk {
+    padding: 0px 50px 0px 50px;
+    border-right: hidden; }
+  .bottombar .credits {
+    padding: 0px 50px 0px 50px; }
